@@ -1,0 +1,125 @@
+<!DOCTYPE html><!--21861007_권소영-->
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>배경이미지</title>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+            
+        }
+        body{
+            background-color: #CFDBE4;
+
+        }
+        #wrap{
+            
+            width: 100%;
+            height: 100%;
+        }
+        header{
+            height: 60px;
+        
+        }
+        #mainv{
+            width: 
+        }
+        video{
+            width: 800px;
+        }
+        nav{
+            height: 40px;
+        font-family: "Goudy Old Style";
+        font-size: 25px;    
+            color: #707070;
+        }
+        nav ul{
+            float: right;
+            list-style: none;
+        }
+        nav li{
+            float: left;
+            width: 200px;
+         
+        }
+        #logo{
+            float: left;
+            margin-left: 50px;    
+        }
+          .clear:after{
+            content: "";display: block; clear: both;
+        }
+        .contents-box { position:relative;
+                        font-family:"SimSun";
+                        color: #C3B5B5;
+        
+        
+        }
+        .text02{
+            position: absolute;
+            top: 220px;
+            left: 560px;
+        
+        }
+        
+        .back-box{ 
+            overflow:hidden;
+            width:450px; 
+            height:450px;
+            background:#ffffff;
+            margin:0 auto;
+        }
+        .back-box video { width:1200px; margin-left:-267px; }
+        .text-box { position:absolute; z-index:10; left:0;top:0;margin-top:50px; }
+        .text-box:after { content:'';display:block;clear:both; }
+        .text-box .text01 { float:left; font-size:200px; margin-right:150px; }
+        .text-box .text02 { float:right; font-size:200px; }
+        
+    </style>
+
+</head>
+
+<body>
+    <div id="wrap">
+        
+        <header>
+               <nav>
+               <div id="logo">
+                   <h1><a href="./index.html">G.</a></h1>
+               </div>
+                <ul>
+                    <li><a href="./index01.html"><h1>J.</h1></a></li>
+                    <li><a href="./index02.html"><h1>H.</h1></a></li>
+                </ul>
+                </nav>
+        </header> 
+       <div id="contents">
+        
+       <div class="contents-box">
+           <div class="back-box">
+               <video src="img/mainvideo.mp4" muted autoplay loop></video>
+           </div>
+           <div class="text-box">
+               <h2 class="text01">山溜</h2>
+               <h2 class="text02">穿石</h2>
+           </div>
+       </div>
+        </div>
+        
+     </div>
+       
+       
+
+</body>
+
+</html>
